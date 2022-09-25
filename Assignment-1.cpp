@@ -90,11 +90,11 @@ int main(){
     //Initialising an empty linked list
     Node*head=NULL;
     //Inserting family detais in linked list
-    append(head,"A",45);
-    append(head,"B",40);
-    append(head,"C",23);
-    append(head,"D",20);
-    append(head,"E",17);
+    append(head,"Akshat",45);
+    append(head,"Bishnoi",40);
+    append(head,"Crazy",23);
+    append(head,"Diplomatic",20);
+    append(head,"Energetic",17);
     cout<<endl;//For space
     //Displaying Family details
     cout<<"Doubly Linked list with my family members as elements is shown below:"<<endl;
@@ -103,5 +103,10 @@ int main(){
 }
 
 
-//D
+//Diplomatic
 //21102030
+
+/*BONUS QUESTION
+Q.Try to find a way to link the family members' doubly-linked list based on their relationship.
+Ans.One way to link the family members doubly-linked list is by sorting the doubly linked list according to age in decending order.By doing so we will get a doubly linked list in which older generation people will be close to head in double linked list and new generation people will be close to tail in doubly linked list.
+*/
